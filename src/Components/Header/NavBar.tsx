@@ -20,13 +20,15 @@ const NavBar = ({ flexBetween, selectedPage, setSelectedPage }: Props) => {
     <nav>
       {isAboveMediumScreens && (
         <div className={`${flexBetween} lg:gap-28 gap-20`}>
-          <div className={`${flexBetween} gap-16`}>
+          <a href="https://wa.me/966530382012" target="_blank" rel="noopener noreferrer">
+            <Button>واتس اب</Button>
+          </a>
+          <div className={`${flexBetween} gap-16 justify-end w-full`}>
             <Links
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
           </div>
-          <Button>Log In</Button>
         </div>
       )}
       {!isAboveMediumScreens && (

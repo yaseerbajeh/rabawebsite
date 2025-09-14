@@ -1,12 +1,8 @@
-import neurology from '@/assets/Images/Icons/Neurology.png';
-import cardiology from '@/assets/Images/Icons/Cardiology.png';
-import orthopedics from '@/assets/Images/Icons/Orthopoedics.png';
-import surgery from '@/assets/Images/Icons/Surgery.png';
-import dentistry from '@/assets/Images/Icons/Dentistry.png';
-import radiology from '@/assets/Images/Icons/Radiology.png';
-import urology from '@/assets/Images/Icons/Urology.png';
-import medicine from '@/assets/Images/Icons/Medicine.png';
-import seeMoreImage from '@/assets/Images/Icons/seeMoreImage.png';
+import communication from '@/assets/Images/Icons/communication.png';
+import therapy from '@/assets/Images/Icons/therapy.png';
+import test from '@/assets/Images/Icons/test.png';
+import train from '@/assets/Images/Icons/train.png';
+import adhd from '@/assets/Images/Icons/adhd.png';
 
 import Banner1 from '@/assets/Images/Banner1.png';
 import Banner2 from '@/assets/Images/Banner2.png';
@@ -22,214 +18,121 @@ import user3 from '@/assets/Images/users/user3.jpg';
 
 import logo from '@/assets/Images/logo.png';
 
-export const links = ['Home', 'Doctors', 'Services', 'Reviews'];
+export const links = ['الخدمات', 'التقييمات', 'الرئيسية'];
 
 export const descNums = [
+
+
+
   {
-    num: '500+',
-    text: 'Expert Doctors',
+    num: '1',
+    text: 'التقييم الطبي',
   },
   {
-    num: '20k+',
-    text: 'Happy Patients',
+    num: '2',
+    text: 'تقييم النطق والتخاطب',
   },
   {
-    num: '24/7',
-    text: 'Emergency Service',
+    num: '3',
+    text: 'تقييم العلاج الوظيفي',
   },
   {
-    num: '100+',
-    text: 'Operation Theatres',
+    num: '4',
+    text: 'تقييم السلوك',
   },
-  {
-    num: '850+',
-    text: 'Hospital Rooms',
-  },
+ 
 ];
 
 export const ServicesData = [
   {
-    img: neurology,
-    title: 'Neurology',
-    id: 'neurology',
-    heading: 'Neurology Department',
+    img: communication,
+    title: 'استشارات',
+    id: 'استشارات',
+    heading: 'الاستشارات النفسية والأسرية',
     texts: [
-      'Expert neurological consultations',
-      'Comprehensive brain and nerve care',
-      'Advanced neuroimaging services',
-      'Treatment for epilepsy and seizures',
-      'Memory and cognitive assessments',
-      'Pediatric neurology expertise',
-      'Movement disorders management',
+      
     ],
   },
   {
-    img: cardiology,
-    title: 'Cardiology',
-    id: 'cardiology',
-    heading: 'Cardiology Department',
+    img: therapy,
+    title: 'جلسات',
+    id: 'جلسات',
+    heading: ' الخطط و الجلسات العلاجية',
     texts: [
-      'Electrocardiogram (ECG)',
-      'Echocardiogram',
-      'Color Doppler Echo',
-      'Dobutamine Stress Echo (DSE)',
-      'Transesophageal Echo (TEE)',
-      'Exercise Tolerance Test (ETT/TMT)',
-      'Halter monitor',
-      '24 Hour Ambulatory BP monitor',
-      'Tilt Test/Tilt Table Test',
+      
     ],
   },
   {
-    img: orthopedics,
-    title: 'Orthopedics',
-    id: 'orthopedics',
-    heading: 'Orthopedics Department',
+    img: test,
+    title: 'اختبارات',
+    id: 'اختبارات',
+    heading: 'الاختبارات والمقاييس',
     texts: [
-      'Orthopedic surgery and joint replacements',
-      'Sports injury and trauma care',
-      'Physical therapy and rehabilitation',
-      'Spine and back pain solutions',
-      'Arthritis and joint disorder treatment',
-      'Orthopedic consultations',
-      'Customized orthopedic care plans',
+     
     ],
   },
   {
-    img: surgery,
-    title: 'Surgery',
-    id: 'surgery',
-    heading: 'Surgery Department',
+    img: adhd,
+    title: 'اضطرابات',
+    id: 'اضطرابات',
+    heading: 'العلاج المعرفي السلوكي للاضطرابات النمائية السلوكية',
     texts: [
-      'Minimally invasive and laparoscopic surgery',
-      'Gastrointestinal surgery and endoscopy',
-      'Plastic and reconstructive surgery',
-      'Cancer and tumor resection',
-      'Post-operative care and recovery',
-      'Surgical consultations',
-      'Emergency surgical interventions',
+   
     ],
   },
   {
-    img: dentistry,
-    title: 'Dentistry',
-    id: 'dentistry',
-    heading: 'Dentistry Department',
+    img: train,
+    title: 'التدريب',
+    id: 'التدريب',
+    heading: 'التدريب والتوعية المجتمعية',
     texts: [
-      'Routine dental check-ups and cleanings',
-      'Cosmetic dentistry and teeth whitening',
-      'Oral surgery and extractions',
-      'Dental implants and restorations',
-      'Pediatric and family dentistry',
-      'Gum disease treatment',
-      'Orthodontic and braces options',
+ 
     ],
   },
-  {
-    img: radiology,
-    title: 'Radiology',
-    id: 'radiology',
-    heading: 'Radiology Department',
-    texts: [
-      'Advanced diagnostic imaging services',
-      'Mammography and breast health screening',
-      'Interventional radiology procedures',
-      'Virtual colonoscopy and body scans',
-      'Radiology consultations',
-      'Fast and accurate imaging results',
-      'State-of-the-art radiology technology',
-    ],
-  },
-  {
-    img: urology,
-    title: 'Urology',
-    id: 'urology',
-    heading: 'Urology Department',
-    texts: [
-      'Urinary tract and kidney evaluations',
-      'Urologic surgery and stone removal',
-      "Men's and women's urological health",
-      'Prostate and bladder care',
-      'Incontinence and pelvic floor therapy',
-      'Urological consultations',
-      'Comprehensive urology solutions',
-    ],
-  },
-  {
-    img: medicine,
-    title: 'Medicine',
-    id: 'medicine',
-    heading: 'Medicine Department',
-    texts: [
-      'Primary care and internal medicine',
-      'Chronic disease management and prevention',
-      'Immunizations and wellness checks',
-      'Holistic and integrative medicine',
-      'Geriatric and pediatric medicine',
-      'Health education and lifestyle coaching',
-      'Individualized medical treatment plans',
-    ],
-  },
-  {
-    img: seeMoreImage,
-    title: 'See More',
-    id: 'seemore',
-    heading: 'Explore Our Services',
-    texts: [
-      'Explore additional healthcare options',
-      'Specialized medical services for all needs',
-      'Discover a world of medical solutions',
-      'Find the right care for you',
-      'Comprehensive healthcare offerings',
-      'More than meets the eye',
-      'Healthcare beyond expectations',
-    ],
-  },
+  
+
 ];
 
 export const Banner1Data = {
-  heading: 'We Are Always Here To Ensure Best Medical Treatment',
+  heading: 'نقدم في مركز رابا عدة طرق للعلاج',
   texts: [
-    'Easy make appointment',
-    'Top specialist doctors',
-    '24/7 service',
-    'Discount for all medical treatments',
-    'Enrolment is quick and easy',
+    'العلاج المعرفي السلوكي',
+    'العلاج بالقصص المصورة',
+    'العلاج باللعب',
+    'العلاج النفسي الفردي',
+    'العلاج الجماعي',
+    'العلاج الأسري',
   ],
   img: Banner1,
 };
 
 export const DoctorsData = {
-  heading: 'Meet Our Specialists',
+  heading: 'شهادات نفخر بها',
   doctors: [
     {
       img: doc1,
-      name: 'Dr. John Smith',
-      job: 'Cardiologist',
+
     },
     {
       img: doc2,
-      name: 'Dr. Kristin Watson',
-      job: 'Dentist',
+
     },
     {
       img: doc3,
-      name: 'Dr. Robert Flores',
-      job: 'Surgeon',
+
     },
     {
       img: doc4,
-      name: 'Dr. Katherine Allen',
-      job: 'Neurologist',
+
     },
   ],
-  heading2: 'Who Are We?',
-  desc: 'A collaborative hospital service website is a digital platform that brings together healthcare professionals, patients and administrators to streamline and enganhe the delivery of healthcare services. This innovative platform allows for seamless communication and coordination among healthcare teams, enabling them to provide more efficient and personalized care to patients.',
+  heading2: 'مشرفة فرع الربوة',
+  desc: 'سمر البجة',
   img: Banner2,
 };
 
 export const FeedbackData = {
-  heading: 'Patient Feedback',
+  heading: 'مركز رابا في خدمتكم في أي وقت',
   feedbacks: [
     {
       img: user1,
@@ -254,15 +157,8 @@ export const FeedbackData = {
 
 export const FooterData = {
   logo: logo,
-  addresses: ['4517 Washington Ave', 'Manchester, Kentucky 39495'],
-  phone: '+1 (505) 555-0125',
-  departments: [
-    'Cardiology',
-    'Dentistry',
-    'Neurology',
-    'Orthopedics',
-    'Surgery',
-    'More',
-  ],
+  addresses: ['8001 Prince Fawaz Bin Abdulaziz St, Ar Rabwah, 3616, Riyadh 12813, Saudi Arabia'],
+  phone: '0530382012 رقم التواصل',
+
   links: links,
 };
