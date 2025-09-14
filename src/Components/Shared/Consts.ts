@@ -107,7 +107,7 @@ export const Banner1Data = {
 };
 
 export const DoctorsData = {
-  heading: 'شهادات نفخر بها',
+  heading: 'شهادات نفتخر بها',
   doctors: [
     {
       img: doc1,
