@@ -12,9 +12,6 @@ import doc2 from '@/assets/Images/Doctors/doc2.png';
 import doc3 from '@/assets/Images/Doctors/doc3.png';
 import doc4 from '@/assets/Images/Doctors/doc4.png';
 
-import user1 from '@/assets/Images/users/user1.jpg';
-import user2 from '@/assets/Images/users/user2.jpg';
-import user3 from '@/assets/Images/users/user3.jpg';
 
 import logo from '@/assets/Images/logo.png';
 
@@ -131,29 +128,7 @@ export const DoctorsData = {
   img: Banner2,
 };
 
-export const FeedbackData = {
-  heading: 'مركز رابا في خدمتكم في أي وقت',
-  feedbacks: [
-    {
-      img: user1,
-      name: 'Ralph Edwards',
-      job: 'Businessman',
-      desc: 'My experience with this hospital has been great. I highly recommend their services to anyone in need of quility healthcare. they truly prioritize patients care!',
-    },
-    {
-      img: user2,
-      name: 'Josh Smith',
-      job: 'Engineer',
-      desc: 'The healthcare professionals were top-natch. they were knowledgeable, attentive, and took the time to answer all of my questions and address my concerns',
-    },
-    {
-      img: user3,
-      name: 'Eleanor Pena',
-      job: 'Teacher',
-      desc: "One thing that stood out to me was the efficiency of the service, i didn't have to wait long for my appointment, and the entire process was hassle-free experience",
-    },
-  ],
-};
+
 
 export const FooterData = {
   logo: logo,
