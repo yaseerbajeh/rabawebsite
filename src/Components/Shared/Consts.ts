@@ -5,7 +5,6 @@ import train from '@/assets/Images/Icons/train.png';
 import adhd from '@/assets/Images/Icons/adhd.png';
 
 import Banner1 from '@/assets/Images/Banner1.png';
-import Banner2 from '@/assets/Images/Banner2.png';
 
 import doc1 from '@/assets/Images/Doctors/doc1.png';
 import doc2 from '@/assets/Images/Doctors/doc2.png';
@@ -103,29 +102,29 @@ export const Banner1Data = {
   img: Banner1,
 };
 
+export const instagramPosts = [
+  'https://www.instagram.com/reel/DD6fM2TBCtx/?igsh=Y3V4dHVidmp4Z2M3',
+  'https://www.instagram.com/reel/DEPDtaAi67B/?igsh=MWlvdTRybWsxMHd5eA==',
+];
+
 export const DoctorsData = {
   heading: 'شهادات نفتخر بها',
   doctors: [
     {
       img: doc1,
-
     },
     {
       img: doc2,
-
     },
     {
       img: doc3,
-
     },
     {
       img: doc4,
-
     },
   ],
-  heading2: 'مشرفة فرع الربوة',
-  desc: 'سمر البجة',
-  img: Banner2,
+  heading2: "محتوى انستجرام",
+  desc: "",
 };
 
 
